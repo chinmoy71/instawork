@@ -10,7 +10,7 @@ import unittest
 class InstaWork(unittest.TestCase):
 
     def setUp(self):
-        # create a new Firefox session
+        # create a new chrome session
         self.driver = webdriver.Chrome(executable_path='.\Driver\chromedriver.exe')
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
